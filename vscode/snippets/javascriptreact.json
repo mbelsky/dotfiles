@@ -1,0 +1,46 @@
+{
+  "Component template": {
+  "prefix": "reactcomponent",
+  "body": [
+    "import React from 'react';\n",
+    "class $TM_FILENAME_BASE extends React.Component {",
+    "\trender() {",
+    "\t\treturn null;\n\t}",
+    "}\n",
+    "export default $TM_FILENAME_BASE;\n"
+  ]
+},
+"Component constructor": {
+  "prefix": "constructor",
+  "body": [
+    "constructor(props) {",
+    "\tsuper(props);",
+    "\tthis.state = {$0};",
+    "}\n"
+  ]
+},
+"PropTypes import": {
+  "prefix": "ipt",
+  "body": "import PropTypes from 'prop-types';"
+},
+"Setup .propTypes": {
+  "prefix": "spt",
+  "body": "$TM_FILENAME_BASE.propTypes = {$0};"
+},
+"Setup .defaultProps": {
+  "prefix": "sdp",
+  "body": "$TM_FILENAME_BASE.defaultProps = {$0};"
+},
+"Styled-component template": {
+  "prefix": "styledcomponent",
+  "body": [
+    "import styled from 'styled-components';\n",
+    "const $TM_FILENAME_BASE = styled$0`\n`;\n",
+    "export default $TM_FILENAME_BASE;\n"
+  ]
+},
+"use strict": {
+  "prefix": "strict",
+  "body": "'use strict';"
+}
+}
