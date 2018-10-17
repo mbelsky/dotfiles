@@ -1,0 +1,42 @@
+{
+  "breadcrumbs.enabled": true,
+
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
+
+  "editor.dragAndDrop": false,
+  "editor.formatOnSave": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "files.autoSave": "onFocusChange",
+
+  "launch": {
+    "configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "Node: Attach",
+        "restart": true,
+        "protocol": "inspector"
+      }
+    ],
+    "compounds": []
+  },
+
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "One Dark (Sublime)",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.editor": "json",
+  "workbench.statusBar.feedback.visible": false,
+
+  "window.zoomLevel": 0,
+
+  "eslint.enable": false,
+  "tslint.enable": false
+}
