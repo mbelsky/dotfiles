@@ -33,7 +33,7 @@
     ],
     "compounds": []
   },
-  
+  "terminal.integrated.cursorBlinking": true,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "terminal.integrated.shell.windows": "P A T H",
