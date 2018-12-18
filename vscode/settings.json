@@ -18,6 +18,8 @@
 
   "files.autoSave": "onFocusChange",
   
+  "git.openDiffOnClick": false,
+  
   "html.format.extraLiners": "",
   "html.format.wrapLineLength": 80,
 
