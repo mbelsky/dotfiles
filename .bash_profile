@@ -1,10 +1,11 @@
-export DEV=$HOME/development
 export PATH=$PATH
 
 # Download this files here: https://github.com/git/git/tree/master/contrib/completion
 source .git-completion.bash
 source .git-prompt.sh
 PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
+
+alias ls="ls -AGhl"
 
 # Carthage 
 alias carti='sh ~/.carthage_init.sh'
