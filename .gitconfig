@@ -2,13 +2,15 @@
   name = Maxim Belsky
   email = public.belsky@gmail.com
 [alias]
-  st = status
-  co = checkout
+  br = branch
   ci = commit
-  rb = rebase
+  co = checkout
+  conflicts = diff --name-only --diff-filter=U
+  cp = cherry-pick
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
   men = merge --no-ff
-  conflicts = diff --name-only --diff-filter=U
+  rb = rebase
+  st = status
 [color]
   ui = true
 [diff]
