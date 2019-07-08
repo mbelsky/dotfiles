@@ -46,7 +46,6 @@
   "workbench.colorTheme": "One Dark (Sublime)",
   "workbench.iconTheme": "vscode-icons",
   "workbench.settings.editor": "json",
-  "workbench.statusBar.feedback.visible": false,
   "workbench.tree.indent": 20,
 
   "eslint.enable": false,
