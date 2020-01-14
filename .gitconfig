@@ -1,5 +1,5 @@
 [user]
-  name = Maxim Belsky
+  name = Max Belsky
   email = public.belsky@gmail.com
 [alias]
   br = branch
@@ -11,6 +11,10 @@
   men = merge --no-ff
   rb = rebase
   st = status
+  please = push --force-with-lease
+  prom = pull --rebase origin master
+  upush = push -u origin HEAD
+  undo = reset --soft HEAD~
 [color]
   ui = true
 [diff]
