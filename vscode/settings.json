@@ -1,6 +1,8 @@
 {
   "breadcrumbs.enabled": true,
 
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
   "editor.fontSize": 16,
   "terminal.integrated.fontSize": 14,
 
@@ -16,10 +18,12 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
 
+  "extensions.ignoreRecommendations": true,
+
   "files.autoSave": "onFocusChange",
-  
+
   "git.openDiffOnClick": false,
-  
+
   "html.format.extraLiners": "",
   "html.format.wrapLineLength": 80,
 
@@ -35,7 +39,11 @@
     ],
     "compounds": []
   },
+
+  "search.searchOnTypeDebouncePeriod": 600,
+
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.minimumContrastRatio": 7,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "terminal.integrated.shell.windows": "P A T H",
@@ -46,6 +54,7 @@
   "workbench.colorTheme": "One Dark (Sublime)",
   "workbench.iconTheme": "vscode-icons",
   "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.indent": 20,
 
   "eslint.enable": false,
