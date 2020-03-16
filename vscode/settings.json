@@ -12,6 +12,7 @@
   "editor.renderWhitespace": "all",
   "editor.suggest.localityBonus": true,
   "editor.tabSize": 2,
+  "editor.unfoldOnClickAfterEndOfLine": true,
 
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
