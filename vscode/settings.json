@@ -1,13 +1,20 @@
 {
   "breadcrumbs.enabled": true,
 
+  "debug.console.closeOnEnd": false,
+  "debug.javascript.suggestPrettyPrinting": false,
+
+  "diffEditor.renderSideBySide": false,
+
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": false,
   "editor.fontSize": 16,
   "terminal.integrated.fontSize": 14,
 
   "editor.dragAndDrop": false,
-  "editor.formatOnSave": false,
+  "editor.find.cursorMoveOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.suggest.localityBonus": true,
@@ -27,6 +34,8 @@
 
   "html.format.extraLiners": "",
   "html.format.wrapLineLength": 80,
+  
+  "js/ts.implicitProjectConfig.strictNullChecks": true
 
   "launch": {
     "configurations": [
