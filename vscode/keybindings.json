@@ -44,5 +44,26 @@
     "key": "cmd+k cmd+c",
     "command": "-editor.action.addCommentLine",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "workbench.action.files.revealActiveFileInWindows"
+  },
+  {
+    "key": "cmd+k r",
+    "command": "-workbench.action.files.revealActiveFileInWindows"
+  },
+  {
+    "key": "cmd+k r",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "deleteInsideWord",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+k cmd+z",
+    "command": "workbench.action.toggleEditorWidths"
   }
 ]
