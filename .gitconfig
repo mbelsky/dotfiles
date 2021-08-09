@@ -7,6 +7,7 @@
   co = checkout
   conflicts = diff --name-only --diff-filter=U
   cp = cherry-pick
+  lbr = branch --format='%(if)%(HEAD)%(then)* %(else)  %(end)%(color:green)%(refname:short)%(color:reset) %(subject)'
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
   men = merge --no-ff
   rb = rebase
