@@ -20,6 +20,8 @@
   ui = true
 [diff]
   tool = opendiff
+[fetch]
+  prune = true
 [push]
   default = simple
 
