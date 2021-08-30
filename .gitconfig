@@ -11,7 +11,9 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
   men = merge --no-ff
   rb = rebase
+  shallow = clone --depth 1
   st = status
+  start = !git init && git commit --allow-empty -m 'Initial commit'
   please = push --force-with-lease
   prom = pull --rebase origin master
   upush = push -u origin HEAD
