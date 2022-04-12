@@ -5,6 +5,7 @@
   br = branch
   ci = commit
   co = checkout
+  cob = "!f() { git checkout -b mbelsky/$1; }; f"
   conflicts = diff --name-only --diff-filter=U
   cp = cherry-pick
   lbr = branch --format='%(if)%(HEAD)%(then)* %(else)  %(end)%(color:green)%(refname:short)%(color:reset) %(subject)'
