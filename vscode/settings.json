@@ -24,6 +24,7 @@
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
   "explorer.openEditors.visible": 0,
 
   "extensions.ignoreRecommendations": true,
@@ -49,6 +50,8 @@
     ],
     "compounds": []
   },
+
+  "problems.decorations.enabled": false,
 
   "search.searchOnTypeDebouncePeriod": 600,
   "security.workspace.trust.banner": "never",
