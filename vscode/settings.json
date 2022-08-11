@@ -64,6 +64,7 @@
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "One Dark (Sublime)",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.layoutControl.enabled": false,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.indent": 20,
