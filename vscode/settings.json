@@ -12,6 +12,7 @@
   "terminal.integrated.fontSize": 14,
 
   "editor.dragAndDrop": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.find.cursorMoveOnType": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "modifications",
