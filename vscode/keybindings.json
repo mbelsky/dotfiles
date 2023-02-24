@@ -1,7 +1,8 @@
 [
   {
     "key": "alt+cmd+w",
-    "command": "workbench.action.closeOtherEditors"
+    "command": "workbench.action.closeOtherEditors",
+    "when": "editorFocus"
   },
   {
     "key": "shift+cmd+/",
@@ -69,5 +70,25 @@
   {
     "key": "alt+cmd+e",
     "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "toggleFindCaseSensitive",
+    "when": "findInputFocussed"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "-toggleFindCaseSensitive",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+cmd+w",
+    "command": "toggleFindWholeWord",
+    "when": "findInputFocussed"
+  },
+  {
+    "key": "alt+cmd+w",
+    "command": "-toggleFindWholeWord",
+    "when": "editorFocus"
   }
 ]
