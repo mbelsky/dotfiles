@@ -37,7 +37,7 @@
   "html.format.extraLiners": "",
   "html.format.wrapLineLength": 80,
   
-  "js/ts.implicitProjectConfig.strictNullChecks": true
+  "js/ts.implicitProjectConfig.strictNullChecks": true,
 
   "launch": {
     "configurations": [
@@ -45,8 +45,7 @@
         "type": "node",
         "request": "attach",
         "name": "Node: Attach",
-        "restart": true,
-        "protocol": "inspector"
+        "restart": true
       }
     ],
     "compounds": []
@@ -59,20 +58,15 @@
 
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.minimumContrastRatio": 7,
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
   "terminal.integrated.shell.windows": "P A T H",
   
   "window.zoomLevel": 0,
 
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "One Dark (Sublime)",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Light+",
   "workbench.layoutControl.enabled": false,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.indent": 20,
-
-  "eslint.enable": false,
-  "tslint.enable": false
 }
