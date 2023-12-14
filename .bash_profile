@@ -5,6 +5,13 @@ source .git-completion.bash
 source .git-prompt.sh
 PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
 
+cutfps() {
+  input=${1:-input.mp4}
+  output=${2:-output.mp4}
+  ffmpeg -i "$input" -r 24 "$output"
+  # ffmpeg -i "$input" -vf "scale=1024:-1" -r 24 "$output"
+}
+
 alias ls="ls -AGhl"
 
 # Carthage 
