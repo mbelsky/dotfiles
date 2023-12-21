@@ -16,6 +16,7 @@
   "editor.find.cursorMoveOnType": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "modifications",
+  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.suggest.localityBonus": true,
